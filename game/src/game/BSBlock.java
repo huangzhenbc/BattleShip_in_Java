@@ -10,5 +10,5 @@ package game;
  * @author huangzhen
  */
 public class BSBlock implements Block<BSPosition> {
-    //做了一些修改~
+    
 }
