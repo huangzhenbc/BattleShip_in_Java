@@ -14,4 +14,5 @@ public interface Block <Position>{
     /*
         请在下面声明对外接口
     */
+    
 }

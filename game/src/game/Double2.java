@@ -11,4 +11,9 @@ package game;
  */
 public final class Double2 { // 简单装包
     public Double x, y;
+
+    Double2(double a, double b) {
+        this.x=a;
+        this.y=b;
+    }
 }

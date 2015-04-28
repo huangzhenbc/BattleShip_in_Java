@@ -11,6 +11,8 @@ package game;
  */
 public interface Ship 
 {
+   int getshipsize(int size);
+   
     /*
         请在此声明对外接口
     */
