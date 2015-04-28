@@ -7,13 +7,12 @@ package game;
 
 /**
  *
- * @author huangzhen
+ * @author lenovo
  */
-public final class Double2 { // 简单装包
-    public Double x, y;
-
-    Double2(double a, double b) {
-        this.x=a;
-        this.y=b;
+public class BSAttack {
+    Double2 attackPos=new Double2(0.0,0.0);
+    public BSAttack(double a, double b){
+        this.attackPos.x=a;
+        this.attackPos.y=b;
     }
 }

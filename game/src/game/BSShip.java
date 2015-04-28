@@ -10,5 +10,18 @@ package game;
  * @author huangzhen
  */
 public class BSShip implements Ship{
-    
+    int shipsize;
+   public BSShip(int s){
+       this.shipsize=s;
+   }
+   public BSShip(){
+       this.shipsize=0;
+   }
+    public int getshipsize(int size){
+        this.shipsize=size;
+        return shipsize;
+    }
+    public BSPosition shipposition(int size, BSPosition mouse){
+        
+    }
 }
