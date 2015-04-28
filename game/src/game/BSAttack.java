@@ -10,5 +10,9 @@ package game;
  * @author lenovo
  */
 public class BSAttack {
-    
+    Double2 attackPos=new Double2(0.0,0.0);
+    public BSAttack(double a, double b){
+        this.attackPos.x=a;
+        this.attackPos.y=b;
+    }
 }
